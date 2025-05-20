@@ -1,0 +1,409 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 3869
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 785.1970866141732586 Td
+(Interview Evaluation) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 756.8506299212598378 Td
+(Question 1: How do you handle debugging complex issues in a distributed system, and can you walk me through a recent experience where you had to do so?) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 558.42543307086612 Td
+(Question 2: Can you explain the concept of dependency injection and how you would implement it in a Node.js application, and how does it improve code maintainability?) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 360.0002362204724022 Td
+(Question 3: How do you approach code reviews, both giving and receiving feedback, and what strategies do you use to ensure that the feedback is constructive and actionable?) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 161.5750393700786844 Td
+(Question 4: How would you optimize the performance of a slow-performing API endpoint, and what tools or techniques would you use to identify the root cause of the issue?) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 -36.8501574803150334 Td
+(Question 5: Write a function to find the first duplicate in an array of integers, returning the duplicate value or -1 if none exist.) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 -93.5430708661418748 Td
+(Technical Response) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 -121.8895275590551819 Td
+(Code Answer: hi) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 -150.2359842519686026 Td
+(Code Score: 0/100) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 -235.2753543307088648 Td
+(Question 6: Implement a recursive function to calculate the nth Fibonacci number.) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 -291.9682677165354789 Td
+(Technical Response) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 -320.3147244094490134 Td
+(Code Answer: hi) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 -348.6611811023623204 Td
+(Code Score: 0/100) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 -433.7005511811024689 Td
+(Question 7: Write a function to reverse the order of a given string, without using any built-in reverse functions.) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 -490.3934645669293104 Td
+(Technical Response) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 -518.7399212598426175 Td
+(Code Answer: hi) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 -547.0863779527561519 Td
+(Code Score: 0/100) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 -632.1257480314963004 Td
+(Question 8: Create a function to find the maximum sum of a contiguous subarray within a one-dimensional array of numbers.) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 -688.8186614173229145 Td
+(Technical Response) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 -717.165118110236449 Td
+(Code Answer: hhhhhhh) Tj
+T* (iiiiiii) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 -745.511574803149756 Td
+(Code Score: 0/100) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 -830.5509448818899045 Td
+(Question 9: Design a function to determine whether a given string is a palindrome, returning true or false.) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 -887.243858267716746 Td
+(Technical Response) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 -915.5903149606300531 Td
+(Code Answer: hello) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+56.6929133858267775 -943.9367716535435875 Td
+(Code Score: 0/100) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+/F3 7 0 R
+/F4 8 0 R
+/F5 9 0 R
+/F6 10 0 R
+/F7 11 0 R
+/F8 12 0 R
+/F9 13 0 R
+/F10 14 0 R
+/F11 15 0 R
+/F12 16 0 R
+/F13 17 0 R
+/F14 18 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+19 0 obj
+<<
+/Producer (jsPDF 3.0.1)
+/CreationDate (D:20250512212937+03'00')
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000004073 00000 n 
+0000005890 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000004130 00000 n 
+0000004255 00000 n 
+0000004385 00000 n 
+0000004518 00000 n 
+0000004655 00000 n 
+0000004778 00000 n 
+0000004907 00000 n 
+0000005039 00000 n 
+0000005175 00000 n 
+0000005303 00000 n 
+0000005430 00000 n 
+0000005559 00000 n 
+0000005692 00000 n 
+0000005794 00000 n 
+0000006138 00000 n 
+0000006224 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [ <ED83C89AE43F822F63991DAA5C0E1800> <ED83C89AE43F822F63991DAA5C0E1800> ]
+>>
+startxref
+6328
+%%EOF

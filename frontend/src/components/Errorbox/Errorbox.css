@@ -1,0 +1,38 @@
+.error-box {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .error-header {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .error-body {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .error-footer {
+    text-align: right;
+  }
+  
+  .retry-button {
+    background-color: #f5c6cb;
+    border: 1px solid #721c24;
+    color: #721c24;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .retry-button:hover {
+    background-color: #721c24;
+    color: white;
+  }

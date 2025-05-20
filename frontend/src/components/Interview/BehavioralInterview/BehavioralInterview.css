@@ -1,0 +1,129 @@
+/* StartInterview.css */
+
+/* Full screen container */
+.start-interview-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #f0f4f8, #dfe6ed);
+    padding: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Countdown timer styling */
+.countdown {
+    font-size: 5rem;
+    font-weight: 800;
+    color: #2563eb;
+    animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.1); opacity: 0.7; }
+}
+
+/* Layout of video and voice wave */
+.interview-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Video section styling */
+.video-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Video player styling */
+.video-box {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    background: #fff;
+}
+
+/* AI Voice Wavelength section */
+.ai-voice-wave {
+    display: flex;
+    align-items: flex-end;
+    height: 50px;
+    gap: 6px;
+    margin-top: 1.5rem;
+  }
+
+  .bar {
+    width: 6px;
+    background: linear-gradient(180deg, #28c76f 0%, #1b8d55 100%);
+    border-radius: 3px;
+    transform-origin: bottom;
+    transition: transform 0.07s ease;
+  }
+  
+
+/* Wavelength animation styling */
+.ai-voice-wave::before {
+    content: "";
+    width: 80%;
+    height: 50px;
+    background: repeating-linear-gradient(
+        90deg,
+        #3b82f6 0px,
+        #3b82f6 3px,
+        transparent 3px,
+        transparent 6px
+    );
+    animation: wave 1.5s linear infinite;
+    display: block;
+    opacity: 0.6;
+}
+
+@keyframes wave {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
+}
+
+/* Next button styling */
+.next-btn {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.next-btn:hover {
+    background: #1d4ed8;
+}
+
+/* Question Heading and Text Styling */
+.question-heading {
+    font-size: 1.75rem;
+    color: #1e293b;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.question-text {
+    font-size: 1.2rem;
+    color: #334155;
+    margin-bottom: 2rem;
+    text-align: center;
+    max-width: 600px;
+}

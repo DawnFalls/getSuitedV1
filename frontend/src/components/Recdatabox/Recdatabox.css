@@ -1,0 +1,150 @@
+.recdatabox {
+  background: linear-gradient(135deg, #ffffff, #f1f5f9);
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  min-width: 260px;
+  width: 300px;
+  flex: 0 0 auto;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  color: #111827;
+}
+
+.recdatabox:hover {
+  transform: scale(1.05);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.12);
+}
+
+.recdatabox-header {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+.recdatabox-content {
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.recdatabox-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.recdatabox-item .label {
+  font-weight: 500;
+  color: #6b7280;
+}
+
+.recdatabox-item .value {
+  font-weight: 600;
+  color: #6c63ff;
+  margin-left: 4px;
+}
+
+.recdatabox-footer {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #6c63ff;
+  text-decoration: none;
+  margin-top: auto;
+}
+
+.recdatabox-footer a:hover {
+  text-decoration: underline;
+}
+
+/* === Recdatabox Like Courses Page === */
+
+.recdatabox {
+  background: linear-gradient(135deg, #ffffff, #f1f5f9);
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  min-width: 260px;
+  width: 300px;
+  flex: 0 0 auto;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  color: #111827;
+}
+
+.recdatabox:hover {
+  transform: scale(1.05);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.12);
+}
+
+.recdatabox-content {
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.recdatabox-description {
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.recdatabox-meta {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+.recdatabox-meta .label {
+  font-weight: 500;
+}
+
+.recdatabox-meta .value {
+  font-weight: 600;
+  color: #6c63ff;
+  margin-left: 4px;
+}
+
+.recdatabox-footer {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #6c63ff;
+  text-decoration: none;
+  margin-top: auto;
+}
+
+.recdatabox-footer:hover {
+  text-decoration: underline;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeInCard 0.5s ease forwards;
+}
+
+@keyframes fadeInCard {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

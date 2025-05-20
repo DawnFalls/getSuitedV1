@@ -1,0 +1,170 @@
+/* Container */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Banner */
+.profile-banner {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(to bottom, #dba7cc, #ffffff);
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  position: relative;
+  z-index: 1;
+}
+
+/* Profile Info Box */
+.profile-info {
+  position: relative;
+  margin-top: -80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+}
+
+/* Profile Picture */
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  background-color: #f0f0f0;
+}
+
+/* File Upload Input */
+.upload-input {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Edit Image Button */
+.edit-img-btn {
+  margin-top: 8px;
+  background-color: transparent;
+  border: none;
+  color: #2f2f8d;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Name Edit Section */
+.profile-name-edit {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Name Input Field */
+.edit-input {
+  font-size: 18px;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 220px;
+}
+
+/* Save Button */
+.save-btn {
+  padding: 6px 12px;
+  background-color: #2f2f8d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background-color: #1e1e6f;
+}
+
+/* Edit Icon */
+.edit-icon {
+  color: #2f2f8d;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Data Boxes Container */
+.databoxes-wrapper {
+  margin-top: 40px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+/* Individual Data Box */
+.databox {
+  width: 70%;
+  max-width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #f4f4f4;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Loading Spinner */
+.loading-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  font-size: 18px;
+  color: #555;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #2f2f8d;
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+  margin-bottom: 16px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.evaluation-section {
+  margin-top: 20px;
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.evaluation-list {
+  list-style: none;
+  padding: 0;
+}
+
+.pdf-link {
+  color: #0066cc;
+  text-decoration: none;
+  display: block;
+  padding: 5px 0;
+}
+
+.pdf-link:hover {
+  text-decoration: underline;
+}

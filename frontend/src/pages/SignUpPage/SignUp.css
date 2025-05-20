@@ -1,0 +1,152 @@
+/* Page background */
+.signup-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  font-family: 'Segoe UI', sans-serif;
+  color: #4f46e5;
+}
+
+/* Card */
+.signup-card {
+  width: 360px;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e7eb;
+}
+
+/* Optional logo */
+.signup-logo {
+  height: 40px;
+  margin-bottom: 1rem;
+}
+
+/* Title & subtext */
+.signup-card h2 {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #4f46e5;
+}
+
+.sub-header {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  color: #6b7280;
+}
+
+.sub-header a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #4f46e5;
+}
+
+/* Input fields */
+.input-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+/* Password field with show/hide */
+.password-wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 0.2rem 0.5rem;
+}
+
+.password-wrapper input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 0.7rem 0.5rem;
+}
+
+.password-wrapper span {
+  cursor: pointer;
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+
+/* Main Sign Up button */
+.signup-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.signup-btn:hover {
+  background: #4338ca;
+}
+
+/* Social login buttons */
+.social-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.google-btn,
+.linkedin-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+/* Google button */
+.google-btn {
+  background-color: #ffffff;
+  border: 1px solid #d1d5db;
+  color: #374151;
+}
+
+.google-btn:hover {
+  background-color: #f9fafb;
+}
+
+/* LinkedIn button */
+.linkedin-btn {
+  background-color: #0077b5;
+  color: white;
+  border: none;
+}
+
+.linkedin-btn:hover {
+  background-color: #005f90;
+}

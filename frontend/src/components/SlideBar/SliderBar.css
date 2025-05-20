@@ -1,0 +1,17 @@
+.slider-bar {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px 10px;
+    gap: 20px;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+  
+  .slider-bar::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .slider-bar::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+  }

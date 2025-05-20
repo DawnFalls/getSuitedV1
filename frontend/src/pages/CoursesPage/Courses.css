@@ -1,0 +1,222 @@
+.courses-page {
+  min-height: 100vh;
+  background-color: #f9fafc;
+  display: flex;
+  flex-direction: column;
+}
+
+.courses-container {
+  padding: 40px 24px;
+}
+
+.courses-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* === Category Tabs === */
+.category-tabs {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.category-tab {
+  padding: 8px 16px;
+  border: 1px solid #6c63ff;
+  border-radius: 20px;
+  background: white;
+  color: #6c63ff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.category-tab:hover {
+  background-color: #6c63ff;
+  color: white;
+}
+
+.category-tab.active {
+  background-color: #6c63ff;
+  color: white;
+  box-shadow: 0 2px 8px rgba(108, 99, 255, 0.2);
+}
+
+/* === Category Group === */
+.category-group {
+  margin-bottom: 50px;
+  opacity: 0;
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.category-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #4b5563;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border-left: 4px solid #6c63ff;
+}
+
+/* === Course Layout === */
+.horizontal-courses-scroll {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* === Fade-in Animation for Cards === */
+@keyframes fadeInCard {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.recdatabox.fade-in {
+  opacity: 0;
+  animation: fadeInCard 0.5s ease forwards;
+}
+
+/* === Hover Effect === */
+.recdatabox {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.recdatabox:hover {
+  transform: scale(1.04);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* === Modal Styles === */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.modal-btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* === Fade-in for Category Groups === */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.recdatabox {
+  background: linear-gradient(135deg, #ffffff, #f1f5f9);
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  min-width: 260px;
+  width: 300px;
+  flex: 0 0 auto;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  color: #111827;
+}
+
+.recdatabox:hover {
+  transform: scale(1.05);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.12);
+}
+
+.recdatabox h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+.recdatabox-description {
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.recdatabox-meta {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+.recdatabox-meta .label {
+  font-weight: 500;
+}
+
+.recdatabox-meta .value {
+  font-weight: 600;
+  color: #6c63ff;
+  margin-left: 4px;
+}
+
+.recdatabox-footer {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #6c63ff;
+  text-decoration: none;
+  margin-top: auto;
+}
+
+.recdatabox-footer:hover {
+  text-decoration: underline;
+}
+
+/* Fade-in animation */
+@keyframes fadeInCard {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.recdatabox.fade-in {
+  opacity: 0;
+  animation: fadeInCard 0.5s ease forwards;
+}

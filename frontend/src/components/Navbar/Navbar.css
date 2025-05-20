@@ -1,0 +1,102 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+/* Left logo */
+.navbar-left {
+  flex: 1;
+}
+
+.navbar-logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #4f46e5;
+  text-decoration: none;
+}
+
+/* Center nav links absolutely centered */
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-center a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar-center a:hover {
+  color: #4f46e5;
+}
+
+/* Right user info or sign in button */
+.navbar-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profile-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.profile-picture {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+.default-profile-icon {
+  width: 42px;
+  height: 42px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.profile-name {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.sign-in-btn {
+  color: #4f46e5;
+  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid #4f46e5;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.sign-in-btn:hover {
+  background-color: #4f46e5;
+  color: white;
+}
+
+.navbar-logo-img {
+  height: 40px;
+  object-fit: contain;
+}

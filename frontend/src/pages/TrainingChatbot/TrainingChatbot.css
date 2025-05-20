@@ -1,0 +1,74 @@
+/* TrainingChatbot.css */
+
+/* Full screen layout */
+.chatbot-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Message display section */
+.messages {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 15px;
+    background-color: #ffffff; /* Set the chat background color to white */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-message {
+    align-self: flex-end;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 75%;
+    word-wrap: break-word;
+}
+
+.ai-message {
+    align-self: flex-start;
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 75%;
+    word-wrap: break-word;
+}
+
+/* Input section at the bottom */
+.input-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: white;
+    border-top: 1px solid #ddd;
+}
+
+.input-field {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+/* Send button color */
+.send-button {
+    width: 10%;
+    padding: 10px;
+    background-color: #4f46e5; /* Purple color */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.send-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

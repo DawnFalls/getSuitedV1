@@ -1,0 +1,32 @@
+# Node.js dependencies
+node_modules/
+
+# TypeScript build output
+dist/
+build/
+
+
+# Log files
+*.log
+npm-debug.log*
+
+# VSCode directory
+.vscode/
+
+# IDE specific files (optional based on the editor you're using)
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# TypeScript declaration files
+*.d.ts
+
+# Optional: Ignore coverage directory for testing frameworks like Jest
+coverage/
+
+# Optional: Ignore temporary files from Jest and Supertest
+*.tmp
+
+.env

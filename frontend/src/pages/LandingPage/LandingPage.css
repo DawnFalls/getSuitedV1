@@ -1,0 +1,114 @@
+/* === Landing Page Enhancements === */
+
+body {
+  background: linear-gradient(180deg, #f6f6f8, #e4ecf7);
+}
+
+.landing-body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #eef2f7, #dbe6f6);
+  margin-bottom: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+.section:nth-of-type(even) {
+body {
+  background: linear-gradient(180deg, #f5f7fa, #e4ecf7);
+}
+
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+
+.course-slider-wrapper,
+.interview-slider-wrapper,
+.questionnaire-slider-wrapper {
+  display: flex;
+  gap: 16px;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+/* === Recdatabox Enhancements === */
+
+.recdatabox {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.recdatabox:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.recdatabox h3 {
+  margin-bottom: 12px;
+  font-size: 1.25rem;
+  color: #222;
+}
+
+.recdatabox p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* === Button Styling === */
+
+.see-all-btn {
+  background-color: #6c63ff;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 10px;
+}
+
+.see-all-btn:hover {
+  background-color: #574fd6;
+}
+
+/* === Responsive Fixes === */
+
+@media (max-width: 768px) {
+  .course-slider-wrapper,
+.interview-slider-wrapper,
+.questionnaire-slider-wrapper {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+}
+
+
+  .section {
+    padding: 20px 10px;
+  }
+
+  .section h2 {
+    font-size: 1.5rem;
+  }
+}
+
+
